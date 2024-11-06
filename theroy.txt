@@ -1,0 +1,31 @@
+1. File Attributes
+File attributes provide metadata about a file and help the operating system manage and control access.
+
+Name: The name assigned to a file for easy identification.
+Type: Defines the nature of the file, such as .txt, .exe, .pdf, etc., indicating its format and how it should be handled.
+Size: The file size, typically measured in bytes, shows how much storage the file occupies.
+Permissions: Defines access levels like read, write, or execute, often based on user roles (owner, group, others).
+Date and Time: Attributes include creation, modification, and last-accessed timestamps, which are useful for version control and tracking usage.
+2. File Operations
+File operations allow users and applications to perform various actions on files.
+
+Open: This operation prepares the file for reading, writing, or updating, and allocates resources as needed.
+Read: Allows access to the contents of a file, typically performed line-by-line, in chunks, or byte-by-byte.
+Write: This operation modifies the contents of a file, either by adding new data or replacing existing data.
+Delete: Permanently removes a file from the system and frees up the storage it occupied.
+Close: Ends access to the file, releasing any system resources associated with it and saving changes if necessary.
+3. Common Types of File Systems
+Different file systems are used depending on the operating system and storage requirements.
+
+NTFS (New Technology File System): Commonly used by Windows; supports large files, high security, file permissions, and advanced metadata.
+FAT32 (File Allocation Table 32): Compatible with most OSes and external drives; has file size limitations (max 4GB per file) and lacks advanced permissions.
+exFAT (Extended File Allocation Table): Developed to overcome FAT32's limitations; used mainly for flash drives and compatible with both Windows and macOS.
+EXT4 (Fourth Extended Filesystem): A default for Linux systems, supporting large volumes, journaling, and efficient space allocation.
+APFS (Apple File System): Designed by Apple for macOS, iOS, and other Apple devices, offering encryption, snapshots, and optimized performance for SSDs.
+These points should give you a concise understanding of each concept in file systems! Let me know if you need additional details on any specific part.
+
+
+
+
+
+
